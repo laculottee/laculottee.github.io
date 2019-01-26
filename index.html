@@ -15,20 +15,51 @@
 .container {
   max-width: 700px;
 }
+body {
+  background-color: rgb(255, 255, 255);
+}
+h1 {
+  color:#155285;
+}
+a {
+  color: #155285;
+}
+time {
+  color: #155285;
+}
+.btn {
+  border-color: #155285;
+  color: #155285;
+}
+.btn:hover {
+  border-color: rgb(99, 0, 21);
+  color: rgb(99, 0, 21);
+  background-color:  #155385cc;
+}
+.badge {
+  color: rgb(99, 0, 21);
+  background-color:  #155385cc;
+}
 #nav a {
   font-weight: bold;
   color: inherit;
 }
+#nav a.nav-link {
+  background-color: #ffffff;
+  color: #155285;
+}
 #nav a.nav-link-active {
-  background-color: #212529;
-  color: #fff;
+  background-color: rgb(99, 0, 21);
+  color: #ffffff;
 }
 #nav-border {
-  border-bottom: 1px solid #212529;
+  border-bottom: 1px solid #155285;
 }
 #main {
   margin-top: 1em;
   margin-bottom: 4em;
+  color: rgb(99, 0, 21);
+  text-align: justify
 }
 #home-jumbotron {
   background-color: inherit;
@@ -117,7 +148,7 @@ audio {
       
     
     
-    <a class="nav-link " href="/references/"><i data-feather="smile"></i> Références</a>
+    <a class="nav-link " href="/references/"><i data-feather="align-left"></i> Mes Références</a>
   
   </nav>
 </div>
@@ -127,7 +158,7 @@ audio {
 
 <div id="home-jumbotron" class="jumbotron text-center">
   <h1>La Culottée</h1>
-  <p class="font-125">Ceci est le blog de la plus belle des culottées, ma chérie : Mathilde</p>
+  <p class="font-125">Je m&rsquo;appelle Mathilde Merx, et suis née en 1996. Etudiante en école d&rsquo;ingénieurs, nous devons dans le cadre de nos étude nous fixer un défi et le réaliser. J&rsquo;ai décidé d&rsquo;écrire des articles féministes, sur des thèmes variés. En voici l&rsquo;ébauche, avec l&rsquo;espoir qu&rsquo;il perdure ! </n> Bonne lecture à tou∙te∙s.</p>
 </div>
 
 
@@ -135,7 +166,7 @@ audio {
     </div>
     <footer id="footer" class="mt-auto text-center text-muted">
   <div class="container">
-    Made with <a href="https://gohugo.io/">Hugo</a> &amp; <a href="https://github.com/zwbetz-gh/vanilla-bootstrap-hugo-theme">Vanilla</a>
+    Made with <a href="https://gohugo.io/">Hugo</a> &amp; <a href="https://github.com/zwbetz-gh/vanilla-bootstrap-hugo-theme">Vanilla</a>, by <a href="https://pouannes.github.io/">Pierre Ouannès</a>
   </div>
 </footer>
     <script src="https://laculottee.github.io/js/feather.min.js"></script>
@@ -145,6 +176,13 @@ audio {
 
 
     
+  
+  <script>
+  window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+  ga('create', 'UA-133303310-1', 'auto');
+  ga('send', 'pageview');
+  </script>
+  <script async src='https://www.google-analytics.com/analytics.js'></script>
   
 
   </body>

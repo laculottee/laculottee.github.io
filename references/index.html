@@ -13,20 +13,51 @@
 .container {
   max-width: 700px;
 }
+body {
+  background-color: rgb(255, 255, 255);
+}
+h1 {
+  color:#155285;
+}
+a {
+  color: #155285;
+}
+time {
+  color: #155285;
+}
+.btn {
+  border-color: #155285;
+  color: #155285;
+}
+.btn:hover {
+  border-color: rgb(99, 0, 21);
+  color: rgb(99, 0, 21);
+  background-color:  #155385cc;
+}
+.badge {
+  color: rgb(99, 0, 21);
+  background-color:  #155385cc;
+}
 #nav a {
   font-weight: bold;
   color: inherit;
 }
+#nav a.nav-link {
+  background-color: #ffffff;
+  color: #155285;
+}
 #nav a.nav-link-active {
-  background-color: #212529;
-  color: #fff;
+  background-color: rgb(99, 0, 21);
+  color: #ffffff;
 }
 #nav-border {
-  border-bottom: 1px solid #212529;
+  border-bottom: 1px solid #155285;
 }
 #main {
   margin-top: 1em;
   margin-bottom: 4em;
+  color: rgb(99, 0, 21);
+  text-align: justify
 }
 #home-jumbotron {
   background-color: inherit;
@@ -113,7 +144,7 @@ audio {
       
     
     
-    <a class="nav-link " href="/references/"><i data-feather="smile"></i> Références</a>
+    <a class="nav-link " href="/references/"><i data-feather="align-left"></i> Mes Références</a>
   
   </nav>
 </div>
@@ -128,7 +159,7 @@ audio {
 
 <p><strong>Liv Strömquist</strong> auteure féministe anticapitaliste suédoise. Ses BD sont pleines d&rsquo;excellents exemples pour quiconque voudrait illustrer ses propos. Une abondance de sources permettent de prendre ses justifications au sérieux.</p>
 
-<p><strong>Andrea Dworkin</strong> <a href="http://www.icasa.org/docs/dworkin.doc">I want a 24 hour Truce during which there is no rape</a> est le premier texte que j&rsquo;ai découvert d&rsquo;elle. Tous les écrits de sa plume que j&rsquo;ai ensuite lus sont similaires : remplis d&rsquo;émotion, de violence, et de profondeur de pensée. Ses revendications politiques en font une féministe radicale, mais qu&rsquo;on la trouve juste ou trop extrême, on ne peut que réfléchir après l&rsquo;avoir lue.</p>
+<p><strong>Andrea Dworkin</strong> <a href="http://www.icasa.org/docs/dworkin.doc">I want a 24 hour truce during which there is no rape</a> est le premier texte que j&rsquo;ai découvert d&rsquo;elle. Tous les écrits de sa plume que j&rsquo;ai ensuite lus sont similaires : remplis d&rsquo;émotion, de violence, et de profondeur de pensée. Ses revendications politiques en font une féministe radicale, mais qu&rsquo;on la trouve juste ou trop extrême, on ne peut que réfléchir après l&rsquo;avoir lue.</p>
 
 
 
@@ -136,7 +167,7 @@ audio {
     </div>
     <footer id="footer" class="mt-auto text-center text-muted">
   <div class="container">
-    Made with <a href="https://gohugo.io/">Hugo</a> &amp; <a href="https://github.com/zwbetz-gh/vanilla-bootstrap-hugo-theme">Vanilla</a>
+    Made with <a href="https://gohugo.io/">Hugo</a> &amp; <a href="https://github.com/zwbetz-gh/vanilla-bootstrap-hugo-theme">Vanilla</a>, by <a href="https://pouannes.github.io/">Pierre Ouannès</a>
   </div>
 </footer>
     <script src="https://laculottee.github.io/js/feather.min.js"></script>
@@ -146,6 +177,13 @@ audio {
 
 
     
+  
+  <script>
+  window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+  ga('create', 'UA-133303310-1', 'auto');
+  ga('send', 'pageview');
+  </script>
+  <script async src='https://www.google-analytics.com/analytics.js'></script>
   
 
   </body>

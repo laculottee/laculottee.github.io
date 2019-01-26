@@ -6,10 +6,19 @@
     <description>Recent content on La Culottée</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>fr</language>
-    <lastBuildDate>Tue, 22 Jan 2019 12:32:25 +0100</lastBuildDate>
+    <lastBuildDate>Sat, 26 Jan 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://laculottee.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Le viol conjugal : histoire, et réquisitoire contre ce crime trop souvent ignoré</title>
+      <link>https://laculottee.github.io/example-post/</link>
+      <pubDate>Sat, 26 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://laculottee.github.io/example-post/</guid>
+      <description>Depuis 1810, une loi du code pénal napoléonien stipulait qu’une femme ne pouvait refuser des relations sexuelles à son mari : c’était le devoir conjugal 1. Si elle ne le respectait pas, le mari était en droit de réclamer le divorce. Or, depuis 23 décembre 1980, l’article 222-23 du code pénal stipule que « Tout acte de pénétration sexuelle, de quelque nature qu&amp;rsquo;il soit, commis sur la personne d&amp;rsquo;autrui ou sur la personne de l&amp;rsquo;auteur par violence, contrainte, menace ou surprise est un viol.</description>
+    </item>
     
     <item>
       <title>Mes références</title>
@@ -19,17 +28,6 @@
       <guid>https://laculottee.github.io/references/</guid>
       <description>Vous avez ici la liste des blogs, auteur&amp;middot;e&amp;middot;s, ou autres que j&amp;rsquo;ai pu trouver édifiantes. Si j&amp;rsquo;essaie de citer dans chaque article de blog les références sur lesquelles je me suis appuyée, tout ce dont je parle ci-dessous a plus forgé ma pensée féministe dans son ensemble !
 http://www.crepegeorgette.com/ qui donne toujours d&amp;rsquo;excellents arguments pour ceux&amp;middot;elles qui se trouveraient en position difficile lors d&amp;rsquo;un débat. En outre, ses articles ont toujours beaucoup développé ma pensée.</description>
-    </item>
-    
-    <item>
-      <title>Le viol conjugal : histoire, et réquisitoire contre ce crime trop souvent ignoré</title>
-      <link>https://laculottee.github.io/example-post/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://laculottee.github.io/example-post/</guid>
-      <description>Ceci mon premier super joyeux poste sur le viol conjugual
-&amp;ldquo;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim 1 ad minim veniam, quis nostrud exercitation ullamco laboris nisi
-ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</description>
     </item>
     
   </channel>
